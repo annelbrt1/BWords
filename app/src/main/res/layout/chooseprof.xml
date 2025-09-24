@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDEB"
+    android:padding="16dp">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Back"
+        android:src="@drawable/image_1" />
+
+    <!-- Settings Button -->
+    <ImageButton
+        android:id="@+id/settings_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Settings"
+        android:src="@drawable/settings" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="CHOOSE YOUR PROFILE PICTURE"
+        android:textColor="#1D4E89"
+        android:textSize="18sp"
+        android:fontFamily="@font/centurygothic_bold"
+        android:textStyle="bold" />
+
+    <!-- Profile Grid -->
+    <GridLayout
+        android:id="@+id/profile_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/title"
+        android:layout_marginTop="32dp"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:alignmentMode="alignMargins"
+        android:rowOrderPreserved="false">
+
+        <!-- Cat -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:contentDescription="Cat"
+            android:src="@drawable/ic_cat"
+            app:srcCompat="@drawable/image_25" />
+
+        <!-- Panda -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:contentDescription="Panda"
+            android:src="@drawable/ic_panda"
+            app:srcCompat="@drawable/image_26" />
+
+        <!-- Bear -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:contentDescription="Bear"
+            android:src="@drawable/ic_bear"
+            app:srcCompat="@drawable/image_27" />
+
+        <!-- Fox -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:contentDescription="Fox"
+            android:src="@drawable/ic_fox"
+            app:srcCompat="@drawable/image_28" />
+    </GridLayout>
+
+    <!-- Add Custom Picture -->
+    <ImageButton
+        android:id="@+id/add_picture"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_add"
+        android:background="@drawable/circle_gray_bg"
+        android:contentDescription="Add Picture"
+        android:layout_below="@id/profile_grid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/btnAddPicture"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@id/profile_grid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="+"
+        android:textSize="28sp"
+        android:textColor="#1D4E89"
+        android:background="@drawable/circle_gray_bg"
+        android:fontFamily="@font/centurygothic_bold"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="NEXT"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1D4E89"
+        android:fontFamily="@font/centurygothic_bold"/>
+</RelativeLayout>

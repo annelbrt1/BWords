@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDEB"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/image_1"
+        android:background="@android:color/transparent"
+        android:contentDescription="Back"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Settings Button -->
+    <ImageButton
+        android:id="@+id/settings_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Settings"
+        android:src="@drawable/settings" />
+
+    <!-- Logo Section -->
+    <LinearLayout
+        android:id="@+id/logo_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/back_button"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/logo"
+            android:contentDescription="Logo" />
+    </LinearLayout>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_section"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/centurygothic_bold"
+        android:gravity="center"
+        android:text="WELCOME\nTO\nBLOOM WORDS"
+        android:textColor="#1D4E89"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Buttons Section -->
+    <LinearLayout
+        android:id="@+id/button_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/welcome_text"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/btn_student"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#C3D6A3"
+            android:fontFamily="@font/centurygothic_bold"
+            android:text="SIGN IN AS STUDENT"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btn_educator"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C3D6A3"
+            android:fontFamily="@font/centurygothic_bold"
+            android:text="SIGN IN AS EDUCATOR"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</RelativeLayout>
