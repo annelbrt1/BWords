@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Back"
+        android:src="@drawable/image_1" />
+
+    <!-- Good Job Text -->
+    <TextView
+        android:id="@+id/good_job_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="GOOD JOB!"
+        android:fontFamily="@font/centurygothic_bold"
+        android:textColor="#1565C0"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Big Letter -->
+    <TextView
+        android:id="@+id/letter_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/centurygothic_bold"
+        android:text="a"
+        android:textColor="#000000"
+        android:textSize="200sp"
+        android:textStyle="bold" />
+
+    <!-- Speaker Icon -->
+
+    <!-- Create Another Button -->
+
+    <ImageButton
+        android:id="@+id/speaker_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Speaker"
+        android:src="@drawable/image_16__1_" />
+
+    <Button
+        android:id="@+id/create_another_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="#1565C0"
+        android:text="CREATE ANOTHER"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

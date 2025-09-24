@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8D1A1">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Back"
+        android:src="@drawable/image_1" />
+
+    <!-- Letter Card -->
+    <TextView
+        android:id="@+id/letter_display"
+        android:layout_width="270dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="#FFF8E1"
+        android:gravity="center"
+        android:fontFamily="@font/centurygothic_bold"
+        android:text="a"
+        android:textColor="#000000"
+        android:textSize="120sp"
+        android:textStyle="bold" />
+
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- SPEECH Button -->
+        <Button
+            android:id="@+id/speech_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#B71C1C"
+            android:text="SPEECH"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <!-- TRACE Button -->
+        <Button
+            android:id="@+id/trace_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2E7D32"
+            android:text="TRACE"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

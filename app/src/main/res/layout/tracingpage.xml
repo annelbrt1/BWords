@@ -41,6 +41,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="70dp"
+        android:fontFamily="@font/centurygothic_bold"
         android:text="a"
         android:textColor="#000000"
         android:textSize="100sp" />
@@ -51,8 +52,8 @@
         android:layout_height="250dp"
         android:layout_centerInParent="true"
         android:src="@drawable/trace_letter"
-        app:srcCompat="@drawable/trace_letter" />
-    android:contentDescription="Letter tracing"/>
+        app:srcCompat="@drawable/trace_letter"
+    android:contentDescription="Letter tracing" />
 
     <!-- Done Button -->
     <Button
