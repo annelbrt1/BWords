@@ -8,7 +8,7 @@ import android.content.pm.PackageManager
 import android.graphics.*
 import android.os.Build
 import android.os.Bundle
-import xyz.sanster.deepandroidocr.databinding.ActivityMainBinding
+import xyz.sanster.deepandroidocr.databinding.ActivityOcrMainBinding
 import android.os.Message
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -57,12 +57,12 @@ class MainActivity : AppCompatActivity(), SurfaceHolder.Callback {
     lateinit var engCrnn: CRNNRecoginzer
 
     // 1. Add the binding property
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityOcrMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // 2. Inflate the binding and set the content view
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityOcrMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         Log.d(TAG, "MainActivity onCreate()")
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
