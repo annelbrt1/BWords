@@ -21,7 +21,7 @@
             android:layout_height="32dp"
             android:layout_marginBottom="24dp"
             android:contentDescription="Menu"
-            android:src="@drawable/ic_menu"
+            android:src="@drawable/burger"
             app:srcCompat="@drawable/burger" />
 
         <!-- Icon Buttons -->
@@ -30,15 +30,15 @@
             android:layout_height="40dp"
             android:layout_marginBottom="16dp"
             android:contentDescription="Word"
-            android:src="@drawable/ic_word"
+            android:src="@drawable/write"
             app:srcCompat="@drawable/write" />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginBottom="16dp"
-            android:contentDescription="Reading"
-            android:src="@drawable/ic_reading"
+            android:contentDescription="Scan"
+            android:src="@drawable/scan"
             app:srcCompat="@drawable/scan" />
 
         <ImageView
@@ -46,7 +46,7 @@
             android:layout_height="40dp"
             android:layout_marginBottom="16dp"
             android:contentDescription="Activity"
-            android:src="@drawable/ic_activity"
+            android:src="@drawable/read"
             app:srcCompat="@drawable/read" />
 
         <!-- Bottom Settings -->
@@ -54,6 +54,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:src="@drawable/wbank"
             app:srcCompat="@drawable/wbank" />
 
         <LinearLayout
