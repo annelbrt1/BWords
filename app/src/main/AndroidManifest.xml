@@ -23,9 +23,4 @@
         </activity>
     </application>
 
-    <activity
-        android:name=".scanpage"
-        android:screenOrientation="landscape"
-        android:exported="true"/>
-
 </manifest>

@@ -1,0 +1,10 @@
+com.github.mmin18.flexlayout
+attr layout_bottom
+attr layout_centerX
+attr layout_centerY
+attr layout_height
+attr layout_left
+attr layout_right
+attr layout_top
+attr layout_width
+styleable FlexLayout_Layout layout_bottom layout_centerX layout_centerY layout_height layout_left layout_right layout_top layout_width

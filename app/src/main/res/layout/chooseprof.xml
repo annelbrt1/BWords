@@ -61,7 +61,7 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:contentDescription="Cat"
-            android:src="@drawable/ic_cat"
+            android:src="@drawable/image_25"
             app:srcCompat="@drawable/image_25" />
 
         <!-- Panda -->
@@ -70,7 +70,7 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:contentDescription="Panda"
-            android:src="@drawable/ic_panda"
+            android:src="@drawable/image_26"
             app:srcCompat="@drawable/image_26" />
 
         <!-- Bear -->
@@ -79,7 +79,7 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:contentDescription="Bear"
-            android:src="@drawable/ic_bear"
+            android:src="@drawable/image_27"
             app:srcCompat="@drawable/image_27" />
 
         <!-- Fox -->
@@ -88,7 +88,7 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:contentDescription="Fox"
-            android:src="@drawable/ic_fox"
+            android:src="@drawable/image_28"
             app:srcCompat="@drawable/image_28" />
     </GridLayout>
 
@@ -97,7 +97,7 @@
         android:id="@+id/add_picture"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:src="@drawable/ic_add"
+        android:src="@drawable/add"
         android:background="@drawable/circle_gray_bg"
         android:contentDescription="Add Picture"
         android:layout_below="@id/profile_grid"

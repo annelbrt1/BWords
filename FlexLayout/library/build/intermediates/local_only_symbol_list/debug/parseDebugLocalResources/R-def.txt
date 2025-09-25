@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+attr? layout_bottom
+attr? layout_centerX
+attr? layout_centerY
+attr? layout_height
+attr? layout_left
+attr? layout_right
+attr? layout_top
+attr? layout_width
+styleable FlexLayout_Layout layout_left layout_right layout_top layout_bottom layout_centerX layout_centerY layout_width layout_height

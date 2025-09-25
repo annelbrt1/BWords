@@ -1,0 +1,17 @@
+int attr layout_bottom 0x0
+int attr layout_centerX 0x0
+int attr layout_centerY 0x0
+int attr layout_height 0x0
+int attr layout_left 0x0
+int attr layout_right 0x0
+int attr layout_top 0x0
+int attr layout_width 0x0
+int[] styleable FlexLayout_Layout { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
+int styleable FlexLayout_Layout_layout_bottom 0
+int styleable FlexLayout_Layout_layout_centerX 1
+int styleable FlexLayout_Layout_layout_centerY 2
+int styleable FlexLayout_Layout_layout_height 3
+int styleable FlexLayout_Layout_layout_left 4
+int styleable FlexLayout_Layout_layout_right 5
+int styleable FlexLayout_Layout_layout_top 6
+int styleable FlexLayout_Layout_layout_width 7
