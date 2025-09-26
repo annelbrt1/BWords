@@ -12,20 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BWords"
         tools:targetApi="31">
+
+        <!-- Launcher Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".Login"
+            android:exported="true"/>
+
+
     </application>
-
-    <activity
-        android:name=".scanpage"
-        android:screenOrientation="landscape"
-        android:exported="true"/>
-
 </manifest>
+
