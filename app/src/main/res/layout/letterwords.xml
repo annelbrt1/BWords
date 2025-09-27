@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5DC"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/exercise_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="CHOOSE AN EXERCISE"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#37474F" />
+
+    <!-- Letters Button -->
+    <LinearLayout
+        android:id="@+id/letters_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exercise_title"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/letters_button"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/circle_bg"
+            android:contentDescription="Letters"
+            android:scaleType="centerInside"
+            android:src="@drawable/letters" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="LETTERS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <!-- Words Button -->
+    <LinearLayout
+        android:id="@+id/words_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exercise_title"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/words_button"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/circle_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/words_logo" <!-- replace with your WORDS logo -->
+        android:contentDescription="Words" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="WORDS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</RelativeLayout>
